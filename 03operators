@@ -1,0 +1,93 @@
+var num1 = 5;
+var num2 = 6;
+
+console.log(num1 * num2);
+
+var answer = ( num1 < num2);
+
+console.log(answer);
+
+var num1 = 6;
+var num2 = 4;
+
+var answer = num1 > num2;
+console.log(answer);
+
+
+var a = 2;
+var b = 4;
+var c = 6;
+var d = 8;
+var e = 10;
+var answer = a + b * c / d * e;
+console.log("The Final Calculated Output'by ordinary method':" + answer);
+//>>
+var answer = a + ((b*c)/d)*e;
+console.log("The Final Calculated Output 'by clean code practice is':" + answer)
+ 
+
+
+
+
+// var L = 1000;
+// // L stands for listing price of any product.
+ //  var S = 759;
+// // S stands for selling price of any product.
+// var D = ((L - S) / L) * 100;
+// console.log("discount percentage is:" + D);
+ 
+
+
+//one more better way to do the same job is 
+var listing_price = 1000;
+var selling_price = 759;
+var discount_percentage = ((listing_price - selling_price) / listing_price) * 100;
+console.log(discount_percentage + "%OFF");
+
+//discount percent (with  round off figure).
+var listing_price = 1000;
+var selling_price = 759;
+var discount_percentage = ((listing_price - selling_price) / listing_price) * 100;
+var display_discount_percentage = Math.round(discount_percentage);
+console.log(display_discount_percentage + "% OFF");
+
+
+// Discount
+var original_price = 599;
+var discount_percent = 29;
+var final_price = (original_price - discount_percent*original_price / 100);
+var display_final_price = Math.round(final_price);
+console.log("The final Price is:" +display_final_price );
+
+
+
+
+//simple intrest 
+var principle_amount = 10000;
+var time = 2; 
+var rate_of_intrest = 4;
+
+var interst  = ((principle_amount * time *rate_of_intrest ) / 100);
+console.log("The simple intrest is:"+interst);
+
+
+var principle_amount = 10000;
+var time = 2;
+var rate_of_interest = 4;
+
+var interest = (principle_amount * time * rate_of_interest) / 100;
+console.log("The simple interest is: " + interest);
+
+
+var principle = 5999;
+var time = 3;
+var rate = 5;
+var simple_intrest = (principle * time * rate) / 100;
+var display_simple_intrest = Math.round(simple_intrest);
+console.log(display_simple_intrest);
+
+
+var a = "2";
+var b = 2;
+var c = (a+b);
+console.log(c);
