@@ -65,3 +65,60 @@ var b = -3;
 var c = 2;
 var result = calculateQuadraticRoots(a, b, c);
 console.log(result);
+
+//some complex examples//
+var age = 11;
+if(age > 18){
+    console.log("\nyou are eligible for sex in india🤤");
+}else if(age === 18){
+    console.log("\nyou have to wait for 11 months and 31 more days for having sex😒");
+}else {
+    console.log("\nyou are not eligible for sex 🤡")
+};
+
+//using the OR "||"operator
+// in OR || operator if any one condition is true it will run properly.
+
+var licence = true;
+var permit = false;
+if(licence || permit){
+    console.log("\nyou are allowed drive");
+}else{
+    console.log("\nyou are not allowed to drive")
+};
+
+
+
+var  chaddi = true;
+var  bikini = true;
+var baniyan = true;
+var bra     = true;
+if(chaddi || bikini || baniyan || bra){
+    console.log("\nthey are allowed to enter ");
+}else{
+    console.log("\nSorry you are not allowed to enter")
+};
+
+//using the AND operator "&&"
+//in AND operator all conditions must be true then after it will run successfully.
+
+var paras = true;
+var mohit = false;
+var hitesh = true;
+var chetan = true;
+if(paras && mohit && hitesh && chetan){
+    console.log("\nyou are allowed to hang out");
+}else{
+    console.log("\nyou are not allowed to hangout")
+};
+
+
+
+
+var x = 5;
+var y = 10;
+if(x > 0 && y > 0){
+    console.log("\nBoth X and Y are positive");
+}else{
+    console.log("\nAtleast one of X or Y is not positive")
+}; 

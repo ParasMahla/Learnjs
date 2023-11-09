@@ -44,3 +44,4 @@ var c = (a+b);
 console.log(typeof c);
 //output = 22
 
+

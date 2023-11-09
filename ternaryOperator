@@ -1,0 +1,5 @@
+//before "?" opeartor we define the condition and after operator we write the console.log and after that we use ":" and define the else condition.
+//example 1
+
+var authenticated = false;
+authenticated ? console.log("signOut Button") : console.log("LOGIN");
