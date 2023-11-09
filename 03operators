@@ -86,8 +86,35 @@ var simple_intrest = (principle * time * rate) / 100;
 var display_simple_intrest = Math.round(simple_intrest);
 console.log(display_simple_intrest);
 
+//area of circle.
+var side = 5;
+var area = (side * side)
+var display_area = Math.round(area)
+console.log("\nThe area of circle is:" + display_area);
+
+
+//area of rectangle.
+
+var length = 5;
+var breadth = 7;
+var area = (length * breadth);
+console.log("\n\nThe area of rectangle is:" + area);
+
+//area of triangle.
+var base = 5;
+var height = 79.545;
+var area = (0.5 * base * height);
+var display_area = Math.round(area);
+console.log("\nThe area of triangle is:" + display_area);
+
+//area  of  circle.
+
+var radius = 5;
+var area = (3.14 * radius * radius);
+var display_area = Math.round(area);
+console.log("\nThe area of circle is:" + display_area);
 
 var a = "2";
 var b = 2;
 var c = (a+b);
-console.log(c);
+console.log("\n\n\n"+c);
