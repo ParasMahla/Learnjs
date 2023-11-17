@@ -3,3 +3,23 @@
 
 var authenticated = false;
 authenticated ? console.log("signOut Button") : console.log("LOGIN");
+
+
+//example 2 
+//even/odd number.
+var num = 2;
+num % 2==0 ? console.log("This number is even") : console.log("This number is odd");
+
+
+//this type of the code won't work to make it work properly  use if else statements for the better control on the flow.
+
+// var temperature = 31;
+// temperature > 30 ? console.log("It is an Hot day") + temperature < 30 ? console.log("its a moderate day"): temperature < 15 + console.log("Its a very cold day outside");
+
+
+
+// //Show user a signout button if he is authenticated.
+// //other wise show him to Login/Signup.
+
+var authenticated = true;
+
