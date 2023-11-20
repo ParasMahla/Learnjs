@@ -2,15 +2,15 @@ var temperature = 19;
 
 if (temperature <= 20)
     {
-        console.log("it's very cold outside");
+        console.log("\nit's very cold outside");
 }
 if(temperature < 30)
     {
-        console.log("it's moderate outside");
+        console.log("\nit's moderate outside");
     }
 else
     {
-        console.log("it's really very Hot outside");
+        console.log("\nit's really very Hot outside");
     }
 
 
@@ -122,3 +122,15 @@ if(x > 0 && y > 0){
 }else{
     console.log("\nAtleast one of X or Y is not positive")
 }; 
+
+
+// var featureSupportedExpanded = 5;
+// if(typeof someFeature !== 'undefined'){
+//    featureSupportedExpanded = "supported";
+// }else{
+//    featureSupportedExpanded = "Not Supported";
+// }
+
+//Checking Browser support:
+ 
+var featureSupported = (typeof someFeature !== 'undefined') ? "Supported" : "Not Supported";
