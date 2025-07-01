@@ -1,12 +1,13 @@
-
-
+// documentatio  for js is ecma script (https://ecma-international.org/)
+//prefer not to use var  because of issue in block scope and function scope
+//only use const and let.
 const uid = "paras123";
 var firstName = "Paras";
 var lastName = "Choudhary";
 var email = "parasmahla567@gmail.com";
 var password = "889075745756";
 var confirmPassword = "889075745756";
-var homeCountry = "India";
+var homeCountry = "India"
 var state = "Rajasthan";
 var coursecount = 0;
 isLogggedInFromGoogle = "false";
@@ -44,4 +45,10 @@ var c = (a+b);
 console.log(typeof c);
 //output = 22
 
+const accountId = 8890855731;
+var accountEmail = "parasmahla443@gmail.com";
+let accountPassword = "paras123";
+let accountState;
 
+
+console.table([accountId , accountEmail, accountPassword, accountState])
