@@ -7,8 +7,11 @@ console.log(`my name is ${name.toUpperCase()} and i have ${repoCount} repositori
 const gameName = new String('Super Mario');
 console.log(gameName);
 
-console.log(gameName.[0]); // Accessing the first character
-console.log(gameName.length); // Getting the length of the string 
+
+
+
+console.log(gameName[0]); // Accessing the first character
+console.log(gameName.length); // Getting the length of the string
 console.log(gameName.toLowerCase()); // Converting to lowercase
 console.log(gameName.toUpperCase()); // Converting to uppercase
 console.log(gameName.indexOf('Mario')); // Finding the index of a substring
